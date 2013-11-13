@@ -1,5 +1,5 @@
 <?php
-//include '../../../secure/.dblogin.inc';
+//include '../secure/.dblogin.inc';
 session_start();
 //echo $_SESSION['user'];
 //provide facility to add user
@@ -203,5 +203,5 @@ $(document).ready(function () {
 </script>
 
 <?php
-//include '../../../secure/.dbclose.inc';
+//include '../secure/.dbclose.inc';
 ?>

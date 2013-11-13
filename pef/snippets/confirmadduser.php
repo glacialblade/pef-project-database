@@ -1,5 +1,5 @@
 <?php
-include '../../../secure/.dblogin.inc';
+include '../secure/.dblogin.inc';
 header("Cache-Control: no-cache");
 
 //password encryption
@@ -17,5 +17,5 @@ if(mysql_query($sql)){
 //$sql = "UPDATE users_tbl SET password='".hash('sha256', $_POST['newpassword'])."', phpsession=NULL WHERE username='".$_POST['user']."' LIMIT 1";
 //mysql_query($sql);
 //echo mysql_affected_rows();
-include '../../../secure/.dbclose.inc';
+include '../secure/.dbclose.inc';
 ?>

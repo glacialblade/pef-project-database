@@ -1,6 +1,6 @@
 <?php
 
-include '../../../secure/.dblogin.inc';
+include '../secure/.dblogin.inc';
 include 'snippets/check_identity.php';
 session_start();
 
@@ -60,6 +60,6 @@ Project Information Database
 
 <?php
 
-include '../../../secure/.dbclose.inc';
+include '../secure/.dbclose.inc';
 
 ?>
