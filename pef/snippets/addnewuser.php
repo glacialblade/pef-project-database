@@ -1,7 +1,5 @@
 <?php
-//include '../secure/.dblogin.inc';
 session_start();
-//echo $_SESSION['user'];
 //provide facility to add user
 
 //if username is good : enable password box
@@ -203,5 +201,5 @@ $(document).ready(function () {
 </script>
 
 <?php
-//include '../secure/.dbclose.inc';
+
 ?>

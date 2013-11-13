@@ -1,6 +1,6 @@
 <?php
 
-include '../secure/.dblogin.inc';
+include '../../secure/.dblogin.inc';
 include 'snippets/check_identity.php';
 session_start();
 if($_SESSION['lvl'] < 5){
@@ -110,6 +110,6 @@ if($result){
 
 <?php
 
-include '../secure/.dbclose.inc';
+include '../../secure/.dbclose.inc';
 
 ?>

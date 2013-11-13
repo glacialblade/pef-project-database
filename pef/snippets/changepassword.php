@@ -1,7 +1,6 @@
 <?php
-//include '../../../secure/.dblogin.inc';
 session_start();
-//echo $_SESSION['user'];
+
 //provide facilities to change password
 
 //check if the old password is correct then give the signal for the next input box
@@ -104,5 +103,5 @@ $(document).ready(function () {
 </script>
 
 <?php
-//include '../../../secure/.dbclose.inc';
+
 ?>

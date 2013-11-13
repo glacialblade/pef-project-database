@@ -1,5 +1,5 @@
 <?php
-include '../secure/.dblogin.inc';
+include '../../secure/.dblogin.inc';
 
 // Initialize the session.
 // If you are using session_name("something"), don't forget it now!
@@ -16,7 +16,7 @@ session_destroy();
 echo "you are being logged out, please wait";
 echo "<img id='loading-image' src='images/ajax-loader.gif' alt='Loading...' />";
 
-include '../secure/.dbclose.inc';
+include '../../secure/.dbclose.inc';
 ?>
 <script>
 $(document).ready(function () {

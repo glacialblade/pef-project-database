@@ -1,6 +1,6 @@
 <?php
 
-include '../secure/.dblogin.inc';
+include '../../secure/.dblogin.inc';
 
 function checkuser($u){
 	$sql = "SELECT username FROM users_tbl WHERE username='$u'";
@@ -42,6 +42,6 @@ if(checkuser($_POST["u"])){
 	echo 'username does not exist, please try again';
 }
 
-include '../secure/.dbclose.inc';
+include '../../secure/.dbclose.inc';
 
 ?>

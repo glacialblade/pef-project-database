@@ -1,5 +1,5 @@
 <?php
-include '../secure/.dblogin.inc';
+include '../../secure/.dblogin.inc';
 header("Cache-Control: no-cache");
 //check if password is correct
 hash('ripemd160', 'The quick brown fox jumped over the lazy dog.');
@@ -16,5 +16,5 @@ if($row){
 
 //echo 'username: '.$_POST['username']. 'password: '. $_POST['password'];
 
-include '../secure/.dbclose.inc';
+include '../../secure/.dbclose.inc';
 ?>
